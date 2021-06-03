@@ -1,0 +1,33 @@
+html,
+body {
+  color:#FEF6E9;
+  background-color: #2D3A4F;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+@font-face {
+  font-family: "Supreme";
+  src: url("/fonts/SupremeLL-Light.otf");
+  font-style: normal;
+  font-weight: 100;
+  font-display: optional;
+}
+@font-face {
+  font-family: "Supreme";
+  src: url("/fonts/SupremeLL-Medium.otf");
+  font-style: medium;
+  font-weight: 100;
+  font-display: optional;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
