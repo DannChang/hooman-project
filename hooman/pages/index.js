@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Header from '../components/Header'
+// import { ReactComponent as News } from 'icons/news.svg';
 
 
 export default function Home() {
@@ -13,18 +15,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link 
           rel="preload"
-          href="/fonts/SupremeLL-Light.otf"
+          href="/fonts/SupremeLL-Medium.otf"
           as="font"
           crossOrigin=""
         />
 
       </Head>
 
-
-      <div className={styles.navContainer}>
+      <Header />
+      {/* <div className={styles.navContainer}>
         <nav>
           <ul>
             <li>
+              <img rel="icon" src="/icons/news.svg" ></img>
               <a>News and articles</a>
             </li>
             <li>
@@ -64,10 +67,18 @@ export default function Home() {
             </li>
           </ul>
         </nav>
-      </div>
+      </div> */}
 
 
       <main className={styles.mainContainer}>
+        <div className={styles.saveContainer}>
+          <div className={styles.discard}>
+            <a>Discard</a>
+          </div>
+          <div className={styles.save}>
+            <a>Save</a>
+          </div>
+        </div>
 
       </main>
 
