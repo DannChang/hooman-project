@@ -6,9 +6,15 @@
   font-display: optional;
 }
 @font-face {
-  font-family: "OpenType";
+  font-family: Supreme;
   src: url("/fonts/SupremeLL-Medium.otf");
-  font-style: medium;
+  font-style: normal;
+  font-display: optional;
+}
+@font-face {
+  font-family: "OpenType";
+  src: url("/fonts/SupremeLL-Bold.otf");
+  font-style: normal;
   font-display: optional;
 }
 
@@ -26,6 +32,21 @@ a {
   text-decoration: none;
 }
 
+
 * {
   box-sizing: border-box;
+}
+
+hr {
+  height: 3px;
+  width: 151px;
+  left: 80px;
+  top: 288px;
+  padding: 0;
+  flex-direction: row;
+  
+
+  background: #849D95; 
+  border: 0;
+  border-radius: 14px;
 }
