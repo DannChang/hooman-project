@@ -1,6 +1,6 @@
 
 @font-face {
-  font-family: Supreme;
+  font-family: SupremeLight;
   src: url("/fonts/SupremeLL-Light.otf");
   font-style: normal;
   font-display: optional;
@@ -12,7 +12,7 @@
   font-display: optional;
 }
 @font-face {
-  font-family: "OpenType";
+  font-family: SupremeBold;
   src: url("/fonts/SupremeLL-Bold.otf");
   font-style: normal;
   font-display: optional;
@@ -40,11 +40,6 @@ a {
 hr {
   height: 3px;
   width: 151px;
-  left: 80px;
-  top: 288px;
-  padding: 0;
-  flex-direction: row;
-  
 
   background: #849D95; 
   border: 0;
