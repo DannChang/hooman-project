@@ -185,3 +185,42 @@
   color: #FEF6E9;
 }
 
+.img {
+  position: absolute;
+  width: 185px;
+  height: 100px;
+  left: 1200px;
+  top: 130px;
+
+}
+
+.imgBg {
+  width: 185px;
+  height: 77px;
+
+  background: #1E2735;
+  border-radius: 15px;
+}
+
+.imgBg a {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+}
+
+
+.imgDes {
+  width: 185px;
+  height: 24px;
+  margin: 5px 0px 0px 0px;
+
+  background: #1E2735;
+  border-radius: 15px;
+}
+
+.imgDes a { 
+  
+
+  color:#2D3A4F;
+  padding: 25px;
+}
