@@ -1,17 +1,17 @@
 import React from 'react'
 import styles from '../styles/Home.module.css'
 
-const Img = () => {
+const ImageSection = () => {
     return (
-        <div className={styles.img}>
-          <div className={styles.imgBg}>
+        <div className={styles.imgContainer}>
+          <div className={styles.imgBackground}>
             <a>Img</a>
           </div>
-          <div className={styles.imgDes}>
+          <div className={styles.imgDescription}>
             <a>Image description</a>
           </div>
         </div>
     )
 }
 
-export default Img
+export default ImageSection

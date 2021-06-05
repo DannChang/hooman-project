@@ -4,7 +4,8 @@ import styles from '../styles/Home.module.css'
 import NavMenu from '../components/NavMenu'
 import SaveButton from '../components/SaveButton'
 import Title from '../components/Title'
-import Img from '../components/Img'
+import ImageSection from '../components/ImageSection'
+import BodySection from '../components/BodySection'
 // import { ReactComponent as News } from 'icons/news.svg';
 
 
@@ -26,7 +27,8 @@ export default function Home() {
       <NavMenu />
       <SaveButton />
       <Title />
-      <Img />
+      <ImageSection />
+      <BodySection />
 
 
     </div>
