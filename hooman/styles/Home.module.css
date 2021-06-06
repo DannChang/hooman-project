@@ -86,7 +86,7 @@
   position: absolute;
   width: 189px;
   height: 41px;
-  left: 820px;
+  left: 815px;
   top: 30px;
  
   display:flex;
@@ -190,8 +190,8 @@
   position: absolute;
   width: 185px;
   height: 100px;
-  left: 1200px;
-  top: 127px;
+  left: 1185px;
+  top: 128px;
 
 }
 
@@ -200,7 +200,7 @@
   height: 77px;
 
   background: #1E2735;
-  border-radius: 15px;
+  border-radius: 20px;
 }
 
 .imgBackground a {
@@ -209,20 +209,24 @@
   padding: 25px;
 }
 
-
 .imgDescription {
   width: 185px;
   height: 24px;
   margin: 5px 0px 0px 0px;
 
+  font-size: 14px;
   background: #1E2735;
   border-radius: 15px;
 }
 
 .imgDescription a { 
   color:#2D3A4F;
-  padding: 25px;
+  padding: 15px;
 }
+
+
+
+
 
 .bodyContainer {
   position: absolute;
@@ -248,6 +252,7 @@
   height: 335px;
   top: 33px;
 
+  font-size: 16px;
   background: #1E2735;
   border-radius: 20px;
 }
@@ -258,4 +263,125 @@
   height: 294px;
 
   padding: 27px;
+}
+
+.metaContainer {
+  position: absolute;
+  width: 647px;
+  height: 68px;
+  left: 393px;
+  top: 635px;
+
+  background: #1E2735;
+  border-radius: 20px;
+}
+
+.metaContent {
+  width: 595px;
+  height: 44px;
+  padding: 23px;
+
+  color: #2D3A4F;
+  font-size: 14px;
+}
+
+
+.titleTagContainer {
+  position: absolute;
+  width: 316px;
+  height: 68px;
+  left: 1054px;
+  top: 635px;
+
+  background: #1E2735;
+  border-radius: 15px;
+}
+
+.titleTagContent {
+  width: 289px;
+  height: 49px;
+  top: 642px;
+  left: 1067px;
+  padding: 23px;
+
+  font-size: 14px;
+  color:#2D3A4F;
+
+}
+
+
+.tagContainer {
+  position: absolute;
+  width: 316px;
+  height: 89px;
+  left: 1054px;
+  top: 716px;
+  padding: 15px;
+ 
+
+  background: #1E2735;
+  border-radius: 20px;
+
+  display: flex;
+
+}
+
+
+.tagContent1 {
+  width: 60px;
+  height: 21.07px;
+  margin: 5px;
+  
+
+  background: #2D3A4F;
+  border-radius: 15px;
+
+  display: flex;
+  justify-content: center;
+}
+
+
+.tagContent2 {
+  width: 68.07px;
+  height: 21px;
+  margin: 5px;
+
+  background: #2D3A4F;
+  border-radius: 15px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.tagContent3 {
+  width: 40.69px;
+  height: 20px;
+  margin: 5px;
+
+  background: #2D3A4F;
+  border-radius: 15px;
+
+  display: flex;
+  justify-content: center;
+}
+
+
+.authorContainer {
+  position: absolute;
+  width: 317.15px;
+  height: 62px;
+  left: 393px;
+  top: 735px;
+  
+  
+}
+
+.avatar1 img{
+  height: 25%;
+  width: 20%;
+  border-radius: 15px;
+}
+
+.avatar1 img:hover {
+  cursor: grab;
 }

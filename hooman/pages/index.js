@@ -6,7 +6,11 @@ import SaveButton from '../components/SaveButton'
 import Title from '../components/Title'
 import ImageSection from '../components/ImageSection'
 import BodySection from '../components/BodySection'
-// import { ReactComponent as News } from 'icons/news.svg';
+import MetaSection from '../components/MetaSection'
+import TitleTag from '../components/TitleTag'
+import TagSection from '../components/TagSection'
+import AuthorsSection from '../components/AuthorsSection'
+
 
 
 export default function Home() {
@@ -24,11 +28,16 @@ export default function Home() {
         />
       </Head>
 
-      <NavMenu />
-      <SaveButton />
-      <Title />
-      <ImageSection />
-      <BodySection />
+      <NavMenu/>
+      <SaveButton/>
+      <Title/>
+      <ImageSection/>
+      <BodySection/>
+      <MetaSection/>
+      <TitleTag/>
+      <TagSection/>
+      <AuthorsSection/>
+
 
 
     </div>
