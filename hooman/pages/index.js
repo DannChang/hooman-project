@@ -26,6 +26,18 @@ export default function Home() {
           as="font"
           crossOrigin=""
         />
+        <link 
+          rel="preload"
+          href="/fonts/SupremeLL-Light.otf"
+          as="font"
+          crossOrigin=""
+        />
+        <link 
+          rel="preload"
+          href="/fonts/SupremeLL-Bold.otf"
+          as="font"
+          crossOrigin=""
+        />
       </Head>
 
       <NavMenu/>

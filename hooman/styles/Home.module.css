@@ -24,7 +24,7 @@
   font-style: normal;
   top: 40px;
   padding: 0px;
-  margin: 10px;
+  margin: 5px;
   cursor: pointer;
 
 
@@ -36,12 +36,20 @@
 
 .navContainer li{
   list-style: none;
+
+  display: flex;
+  align-items: center;
 }
 
 .navContainer a:hover,
 .navContainer a:focus,
 .navContainer a:active {
   color:#FEF6E9;
+}
+
+.navContainer img {
+  position: absolute;
+  background:#849D95;
 }
 
 .nav {
@@ -58,7 +66,7 @@
 
 .bar {
   position: absolute;
-  left: 50px;
+  left: 40px;
   top: 200px;
 }
 
@@ -92,6 +100,10 @@
   display:flex;
   flex-direction: row;
   align-items: center;
+}
+.saveContainer svg {
+  height: 100%;
+  width: 100%;
 }
 
 .discard {
@@ -201,12 +213,14 @@
 
   background: #1E2735;
   border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.imgBackground a {
-  display: flex;
-  justify-content: space-around;
-  padding: 25px;
+.imgBackground :hover {
+  cursor: pointer;
 }
 
 .imgDescription {
@@ -214,6 +228,7 @@
   height: 24px;
   margin: 5px 0px 0px 0px;
 
+  font-family: SupremeLight;
   font-size: 14px;
   background: #1E2735;
   border-radius: 15px;
@@ -241,7 +256,7 @@
   width: 227px;
   height: 33.72px;
   left: 20.5px;
-
+  
   font-size: 18px;
   color: #1E2735;
 }
@@ -252,6 +267,7 @@
   height: 335px;
   top: 33px;
 
+  font-family: SupremeLight;
   font-size: 16px;
   background: #1E2735;
   border-radius: 20px;
@@ -281,8 +297,9 @@
   height: 44px;
   padding: 23px;
 
-  color: #2D3A4F;
+  font-family: SupremeLight;
   font-size: 14px;
+  color: #2D3A4F;
 }
 
 
@@ -304,6 +321,7 @@
   left: 1067px;
   padding: 23px;
 
+  font-family: SupremeLight;
   font-size: 14px;
   color:#2D3A4F;
 
@@ -368,20 +386,26 @@
 
 .authorContainer {
   position: absolute;
-  width: 317.15px;
+  width: 100px;
   height: 62px;
   left: 393px;
   top: 735px;
   
-  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
 }
 
 .avatar1 img{
-  height: 25%;
-  width: 20%;
+  height:100%;
+  width: 80%;
   border-radius: 15px;
 }
 
 .avatar1 img:hover {
   cursor: grab;
+}
+.authorContainer svg:hover {
+  cursor: pointer;
 }
