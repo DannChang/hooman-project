@@ -10,6 +10,7 @@ import MetaSection from '../components/MetaSection'
 import TitleTag from '../components/TitleTag'
 import TagSection from '../components/TagSection'
 import AuthorsSection from '../components/AuthorsSection'
+import FormattingSection from '../components/FormattingSection'
 
 
 
@@ -44,6 +45,7 @@ export default function Home() {
       <SaveButton/>
       <Title/>
       <ImageSection/>
+      <FormattingSection/>
       <BodySection/>
       <MetaSection/>
       <TitleTag/>
