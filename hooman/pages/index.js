@@ -33,12 +33,6 @@ export default function Home() {
           as="font"
           crossOrigin=""
         />
-        <link 
-          rel="preload"
-          href="/fonts/SupremeLL-Bold.otf"
-          as="font"
-          crossOrigin=""
-        />
       </Head>
 
       <NavMenu/>
@@ -51,8 +45,6 @@ export default function Home() {
       <TitleTag/>
       <TagSection/>
       <AuthorsSection/>
-
-
 
     </div>
   )
