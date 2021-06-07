@@ -90,6 +90,17 @@
   border-radius: 20px;
 }
 
+.hideButton {
+  position: absolute;
+  width: 24px;
+  height: 20px;
+  top: 40px;
+  left: 790px;
+}
+.hideButton :hover{
+  cursor: pointer;
+}
+
 .saveContainer {
   position: absolute;
   width: 189px;
