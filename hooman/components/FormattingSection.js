@@ -31,6 +31,9 @@ const FormattingSection = () => {
           <div className={styles.dateContent}>
             03.25.20
           </div>
+          {/* <input type="date" className={styles.dateContent}>
+
+          </input> */}
         </div>
 
         <div className={styles.category}>

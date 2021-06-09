@@ -226,6 +226,20 @@
 
   background: #1E2735;
   border-radius: 20px;
+
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+}
+
+.titleBackground textarea {
+  position: relative;
+  top: 0px;
+  left: 60px;
+  height: 50px;
+  width: 700px;
+  font-size: 18px;
 }
 
 .heading {
@@ -307,6 +321,24 @@
   font-size: 16px;
   background: #1E2735;
   border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.bodyBackground textarea {
+  height: 346px;
+  width: 946px;
+  font-family: SupremeLight;
+  font-size: 16px;
+
+  line-height: 200%;
+}
+
+.bodyBackground textarea::-webkit-scrollbar {
+  color: #849D95;
+
 }
 
 .bodyContent {
@@ -367,6 +399,7 @@
   height: 24px;
   top: 0px;
   left: 535px;
+  
 
 }
 
@@ -389,6 +422,18 @@
   justify-content: center;
   align-items: center;
 }
+/* .dateContent input[type="date"]::-webkit-calendar-pciker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+} */
 
 .category {
   position: absolute;
